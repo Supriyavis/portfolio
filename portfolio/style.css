@@ -1,0 +1,228 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #152238;
+    color:aliceblue;
+}
+.header{
+    position:relative;
+    top:1%;
+    left:0;
+    width: 100%;
+    padding:20px 10px;
+    background:transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+}
+.logo
+{
+   text-decoration: none;
+    position:relative;
+    color:deeppink;
+    font-size: 200%;
+    font-weight: 900;
+    list-style-type: none;
+    margin-left: 3%;
+}
+.navbar a{
+    display: inline-block;
+    font-size:150%;
+    font-weight: 700;
+    color:#fff;
+    margin-left: 30px;
+    transition: .3sec;
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    color:aqua;
+}
+
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin:7px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.leftSection{
+    font-size: 2.5rem;
+    margin:70px 0;
+    left:40%;
+}
+.rightSection img{
+    width:50%;
+    margin:50px;
+    border-radius: 20%;
+ 
+    height:5%;
+    margin-left: 40%;
+    margin-top: 15%;;
+    box-shadow: 0 0 5px  cyan, 0 0 25px cyan,0 0  50px cyan,0 0 100px cyan, 0 0 200px cyan;
+
+}
+.rightSection img:hover{
+    box-shadow: 0 0 50px cyan, 0 0 50px rgb(0, 229, 255),0 0  50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
+
+.btn-box{
+    display:inline-block;
+    padding:10px 28px;
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: large;
+    color:black;
+    font-weight: 900;
+    margin-top: 0%;
+    margin-left: 5%;;
+    animation:slidetop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px aqua, 0 0  25px #0ef;
+    animation: slideTop 2s ease forwards;
+    animation-delay: 3s;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px  cyan, 
+    0 0 25px cyan,0 0  50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
+
+.purple{
+    color:deepskyblue;
+    font-size: 100%;
+    font-weight: 600;
+    
+}
+.about img{
+    background-color: #152238;
+    width:35%;
+    margin:50px;
+    border-radius: 30%;
+    height:7%;
+    margin-top: 10%;
+    box-shadow: 0 0 5px  cyan, 0 0 25px pink,0 0  50px cyan,0 0 100px pink, 0 0 200px cyan;
+}
+.about img:hover{
+    box-shadow: 0 0 5px  cyan, 0 0 25px cyan,0 0  50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    height: 100%;
+
+}
+.about-text h2{
+    font-size: 40px;
+
+}
+.about-text h2 span{
+    color:#0ef;
+}
+.about-text  p{
+    font-size:150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    gap:4rem;
+    font-style: italic;
+}
+#button{
+    box-shadow: 0 0 5px  cyan, 0 0 25px cyan,0 0  50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
+.about-text h1 span{
+    color:deeppink;
+    font-weight: 700;
+}
+.sub-tittle{
+text-align: center;
+   font-weight: 700;
+   font-size: 300%;
+    color:beige;
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sub-tittle span{
+    color:aqua;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 300px;
+
+}
+.container div{
+    height:350px;
+    width:350px;
+    background-color: #0ef;
+    border-radius: 7%;
+    margin:70px;
+    color:black;
+    font-size:large;
+    font-weight: 700;
+    text-align: center;
+}
+.container div:hover{
+    box-shadow: 0 0 5px  cyan, 0 0 25px cyan,0 0  50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
+
+.technical h1{
+    color:indigo;
+    font-style: italic;
+    text-align: center;
+    font-size: 150%;
+}
+
+.professional h1{
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+    color:indigo;
+}
+.projects h1{
+    color:indigo;
+    font-style: italic;
+    text-align: center;
+    font-size: 150%;
+}
+
+#con{
+    text-align: center;
+    font-size: 200%;
+}
+.contact h1{
+    text-align: center;
+color:White;
+
+}
+.contact h1 span{
+    color:cyan;
+  font-weight: 200;
+    font-size: 114%;
+}
+.contact h2{
+    
+    color:crimson;
+    font-size: 200%;
+   text-align: center;
+    
+    }
+    .contact h3{
+    text-align: center;
+    font-style: italic;
+        color:White;
+        font-size: 150%;
+        font-weight: 400;
+        
+        }
+       
